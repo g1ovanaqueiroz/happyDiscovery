@@ -54,3 +54,7 @@ aside.sidebar footer button:hover {
 
   object-fit: cover;
 }
+
+.images {
+  display: grid;
+}
