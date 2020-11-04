@@ -21,3 +21,16 @@
 .primary-button img {
   margin-right: 1.6rem;
 }
+
+.button-select {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.button-select button {
+  height: 6.4rem;
+  background: #F5F8FA;
+  border: 1px solid #D3E2E5;
+  color: #5C8599;
+  cursor: pointer;
+}
