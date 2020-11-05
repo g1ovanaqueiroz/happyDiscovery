@@ -73,4 +73,6 @@ function deleteField(event) {
 // selecionar sim ou não
 function toggleSelect(event) {
   // pegar o botao clicado
+
+  // verificar se sim ou nao
 }
