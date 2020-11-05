@@ -53,3 +53,7 @@ function addPhotoField() {
   // adicionar o clone ao container de imagens
   container.appendChild(newFieldContainer)
 }
+
+function deleteField(event) {
+  const span = event.currentTarget
+}
