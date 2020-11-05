@@ -56,4 +56,9 @@ function addPhotoField() {
 
 function deleteField(event) {
   const span = event.currentTarget
+  const fieldsContainer = document.querySelectorAll('.new-upload')
+
+  if(fieldsContainer.length < 2) {
+    return
+  }
 }
