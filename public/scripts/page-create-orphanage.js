@@ -31,7 +31,7 @@ map.on('click', (event) => {
 
 // adicionar o campo de fotos
 function addPhotoField() {
-  
+
   // pegar o container de fotos
   const container = document.querySelector('#images')
 
@@ -69,3 +69,5 @@ function deleteField(event) {
   // deletar o campo
   span.parentNode.remove();
 }
+
+// selecionar sim ou não
