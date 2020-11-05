@@ -59,6 +59,10 @@ function deleteField(event) {
   const fieldsContainer = document.querySelectorAll('.new-upload')
 
   if(fieldsContainer.length < 2) {
+    // limpar o valor do campo
     return
   }
+
+  // deletar o campo
+  span.parentNode.remove();
 }
