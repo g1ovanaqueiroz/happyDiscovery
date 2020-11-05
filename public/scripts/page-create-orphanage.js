@@ -11,5 +11,17 @@ const icon = L.icon({
   iconAnchor: [29,68]
 })
 
+let marker;
+
 // create and add marker
-L.marker([-7.2266755,-35.8994048], {icon}).addTo(map)
+map.on('click', (event) => {
+  const lat = event.latlng.lat;
+  const lng = event.latlng.lng;
+
+  // remover icon
+  marker && map.removeLayer(marker)
+
+  // add icon layer
+  marker = L.marker([lat, lng], {icon}).addTo(map)
+
+})
