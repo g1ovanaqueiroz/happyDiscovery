@@ -72,13 +72,16 @@ function deleteField(event) {
 
 // selecionar sim ou não
 function toggleSelect(event) {
+  // retirar a class .active dos botoes
+  document.querySelectorAll('.button-select button')
+  .forEach(button => button.classList.remove('active'))
+
+  // colocar a class .active no botao clicado
+
   // pegar o botao clicado
 
   // verificar se sim ou nao
 
   // atualizar o meu input hidden com o valor selecionado
 
-  // retirar a class .active dos botoes
-
-  // colocar a class .active no botao clicado
 }
