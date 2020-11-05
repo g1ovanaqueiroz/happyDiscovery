@@ -81,5 +81,8 @@ function toggleSelect(event) {
   button.classList.add('active')
 
   // atualizar o meu input hidden com o valor selecionado
-  
+  const input = document.querySelector('[name="open_on_weekends"]')
+
+  input.value = button.dataSet.value
+
 }
