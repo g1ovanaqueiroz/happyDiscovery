@@ -77,11 +77,9 @@ function toggleSelect(event) {
   .forEach(button => button.classList.remove('active'))
 
   // colocar a class .active no botao clicado
-
-  // pegar o botao clicado
-
-  // verificar se sim ou nao
+  const button = event.currentTarget
+  button.classList.add('active')
 
   // atualizar o meu input hidden com o valor selecionado
-
+  
 }
