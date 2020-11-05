@@ -75,4 +75,10 @@ function toggleSelect(event) {
   // pegar o botao clicado
 
   // verificar se sim ou nao
+
+  // atualizar o meu input hidden com o valor selecionado
+
+  // retirar a class .active dos botoes
+
+  // colocar a class .active no botao clicado
 }
