@@ -60,6 +60,7 @@ function deleteField(event) {
 
   if(fieldsContainer.length < 2) {
     // limpar o valor do campo
+    span.parentNode.children[0].value=""
     return
   }
 
